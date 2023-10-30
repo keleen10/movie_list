@@ -13,7 +13,7 @@ function App() {
 
 
   useEffect(() => {
-    searchMovies('Avengers');
+    searchMovies('Spider Man');
   }, []);
 
   const searchMovies = async (title) => {
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Movie List</h1>
+      <h1>Reel Roster</h1>
       <div className="search">
         <input
           value={searchTerm}
